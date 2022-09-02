@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <title>Etch a Sketch!</title>    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="grid-container"></div>
+    <div><h1><p id="title">Etch a Sketch!</p></h1></div>
+    <div id="container"> 
+        <div id="controls">
+            <p>choose your<br>color</p>
+            <button class="button" id="btnBlack">black</button>
+            <button class="button" id="btnRed">red</button>
+            <button class="button" id="btnWhite">white</button>
+            <button class="button" id="btnPurple">purple</button>
+        </div>       
+        <div id="grid-background">                      
+            <div id="grid-container"></div>
+        </div>
+        <div id="controls">
+            <button class="button" id="clear">clear</button>
+            <button class="button" id="gridL">grid L</button>
+            <button class="button" id="gridS">grid S</button>
+        </div>   
+    </div>    
     <script src="scripts.js"></script>       
 </body>
 </html>
